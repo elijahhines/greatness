@@ -88,4 +88,19 @@ a:hover {
 .homepic {
     display:block;
     margin:auto;
+    margin-top: 28px;
+}
+
+.teamlist {
+   font-size:30px;
+   font-family: 'Bree Serif', serif;
+   list-style-type:square;
+}
+
+.teamgoals {
+    text-decoration:underline;
+    font-size:3em;
+    font-family: 'Bree Serif', serif;
+    margin-bottom:35px;
+    margin-top:20px;
 }
