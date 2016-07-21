@@ -1,11 +1,12 @@
 body {
-    background-color:#003d52;
+    background-color:Deeppink;
     color:white;
+ 
 }
 .em {
     font-size:5em;
     text-align: center;
-    font-family: 'Bree Serif', serif;
+   font-family: 'Alegreya Sans SC', sans-serif;
     margin-bottom:35px;
     margin-top:20px;
 }
@@ -52,7 +53,6 @@ nav {
 .navtext {
    color:white;
    text-align:center;
-   
 }
 
 a {
@@ -73,7 +73,7 @@ a:hover {
   padding: 15px 32px;
   cursor: pointer;
   transition-duration:0.8s;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size:24px;
   transition-duration: 0.8s;
 }
@@ -93,14 +93,28 @@ a:hover {
 
 .teamlist {
    font-size:30px;
-   font-family: 'Bree Serif', serif;
+   font-family: 'Alegreya Sans SC', sans-serif;
    list-style-type:square;
 }
 
 .teamgoals {
     text-decoration:underline;
     font-size:3em;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     margin-bottom:35px;
     margin-top:20px;
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1.5px; 
+  background-image: -webkit-linear-gradient(left, DeepPink, #8c8b8b, DeepPink);
+  background-image: -moz-linear-gradient(left, DeepPink, #8c8b8b, DeepPink);
+  background-image: -ms-linear-gradient(left, DeepPink, #8c8b8b, DeepPink);
+  background-image: -o-linear-gradient(left, DeepPink, #8c8b8b, DeepPink); 
+}
+
+.aboutp {
+    font-size:2em;
+    text-align:center;
 }
