@@ -1,7 +1,7 @@
 body {
     background-color:Deeppink;
     color:white;
- 
+    line-height: 20px;
 }
 .em {
     font-size:5em;
@@ -75,7 +75,6 @@ a:hover {
   transition-duration:0.8s;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size:24px;
-  transition-duration: 0.8s;
 }
 /*BUTTON DETAILS*/
 
@@ -101,20 +100,28 @@ a:hover {
     text-decoration:underline;
     font-size:3em;
     font-family: 'Alegreya Sans SC', sans-serif;
-    margin-bottom:35px;
-    margin-top:20px;
+    margin-bottom:22px;
 }
 
-hr.style14 { 
+.style14 { 
   border: 0; 
   height: 1.5px; 
   background-image: -webkit-linear-gradient(left, DeepPink, #8c8b8b, DeepPink);
   background-image: -moz-linear-gradient(left, DeepPink, #8c8b8b, DeepPink);
   background-image: -ms-linear-gradient(left, DeepPink, #8c8b8b, DeepPink);
   background-image: -o-linear-gradient(left, DeepPink, #8c8b8b, DeepPink); 
+  line-height: 40px;
+  margin-bottom:1px;
 }
 
 .aboutp {
     font-size:2em;
     text-align:center;
+    display:block;
+    line-height: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top:15px;
+    margin-bottom: 15px;
+    padding-left:100px;
+    padding-right:100px;
 }
